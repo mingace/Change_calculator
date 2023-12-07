@@ -1,0 +1,76 @@
+html {
+    background-color: blanchedalmond;
+    font-family: 'Exo 2', sans-serif;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-family: 'JetBrains Mono', monospace;
+
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    color: #212122;
+    text-align: center;
+    font-size: 50px;
+}
+/* doesnt work */
+h2:final:active {
+    display: grid;
+    align-items: center;
+    text-align: center;
+}
+
+.container {
+    width: 100%;
+}
+
+.questions {
+    display: grid;
+    align-items: center;
+    columns: 2;
+    column-gap: 25px;
+    text-align: center;
+    font-size: 40px;
+    padding: 10px;
+    padding-bottom: 25px;
+    background-color: rgb(245, 245, 245);
+    border-radius: 25px;
+    margin: 0 0 50px;
+    width: fit-content;
+    box-shadow: 4px 4px 6px#212122;
+}
+
+.data {
+    display: grid;
+    padding: 15px;
+    margin: auto;
+    height: 10px;
+    width: 200px;
+    font-size: 25px;
+}
+/* doesnt work */
+#result:active {
+    display: grid;
+    align-items: center;
+    text-align: center;
+    width: 200px;
+    font-size: 25px; 
+    background-color: rgb(255, 255, 255);
+    border-radius: 25px;
+    margin: 0 0 30px;
+    width: 400px;
+    height: min-content;
+    box-shadow: 4px 4px 6px #212122;
+}
+
+button {
+    display: grid;
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+    height: 30px;
+    width: 115px;
+}

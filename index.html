@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@100&family=Gloria+Hallelujah&family=JetBrains+Mono:wght@300&display=swap" rel="stylesheet">
+  <title>Change Calculator</title>
+</head>
+
+<body>
+  <h1>Change Calculator</h1>
+  <form>
+    <div class="questions">
+      <label>How much is due?</label>
+      <input type="text" class="data" id="amount-due"></input>
+    </div>
+    <div class="questions">
+      <label>How much was received?</label>
+      <input type="text" class="data" id="amount-received"></input>
+    </div>
+    <button id="calculate-change" type="button" onclick="calculateChange()">Calculate</button>
+    <br>
+    <div id="result">
+      <p class="currencyName" id="dollars-output"></p>
+      <p class="currencyName" id="quarters-output"></p>
+      <p class="currencyName" id="dimes-output"></p>
+      <p class="currencyName" id="nickels-output"></p>
+      <p class="currencyName" id="pennies-output"></p>
+    </div>
+    <h2>Total due: <span id="final">0</span></h2>
+  </form>
+  <script src="./main.js"></script>
+</body>
+</html>
