@@ -23,9 +23,10 @@ function calculateChange() {
     let currencyName = money[0];
     let amount = money[1];
     let total = Math.floor(change / amount);
-
+        //console.log(change);
     change = Number((change % amount).toFixed(2));
     resultText += `${currencyName}: ${total}\n`;
     document.getElementById('result').innerText = resultText;
     }
 }
+
